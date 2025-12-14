@@ -1,0 +1,82 @@
+<!-- <h2>Login</h2>
+
+<p style="color:red">{{ error }}</p>
+
+<input placeholder="Username" [(ngModel)]="username" />
+<br><br>
+<input type="password" placeholder="Password" [(ngModel)]="password" />
+<br><br>
+
+<button (click)="login()">Login</button>
+<br><br>
+<a routerLink="/register">Register</a> -->
+
+
+<!-- <h2>Login</h2>
+
+<p style="color:red">{{ error }}</p>
+
+<input
+  type="text"
+  placeholder="Username"
+  [(ngModel)]="username"
+/>
+<br /><br />
+
+<input
+  type="password"
+  placeholder="Password"
+  [(ngModel)]="password"
+/>
+<br /><br />
+
+<button (click)="login()">Login</button>
+
+<br /><br />
+
+<p>
+  New here?
+  <button
+    type="button"
+    (click)="goToRegister()"
+    style="
+      border: solid;
+      background: rgb(188, 185, 210);
+      color: black;
+      cursor: pointer;
+      padding: auto;
+      border-radius: 8px;
+    "
+  >
+    Register
+  </button>
+</p> -->
+
+
+<div class="page-container">
+  <div class="card">
+    <h2>Login</h2>
+
+    <p class="error">{{ error }}</p>
+
+    <input
+      type="text"
+      placeholder="Username"
+      [(ngModel)]="username"
+    />
+<br /><br />
+    <input
+      type="password"
+      placeholder="Password"
+      [(ngModel)]="password"
+    />
+    <br /><br />
+
+    <button (click)="login()">Login</button>
+
+    <p class="link-text">
+      New here?
+      <button type="button" class="nav-button" (click)="goToRegister()">Register</button>
+    </p>
+  </div>
+</div>
